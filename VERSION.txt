@@ -1,0 +1,60 @@
+Version 1.0.1
+Release Date: 2025-11-02
+
+Information-Oriented Sphere System
+基于信息元的球面结构化系统
+
+Major Features:
+- Information Element Extraction (信息元提取)
+- Information Group Building (信息组构建)  
+- Spherical Mapping System (球面映射系统)
+- Full Interpretability (完全可解释性)
+- Direct Decodability (直接可解码性)
+- Lossless Reconstruction (无损重构)
+
+Changes in v1.0.1:
+- 🚀 Performance Optimization: 2.28x speedup (180ms → 78.80ms)
+- ✅ Delayed raw_data conversion (tensor format preservation)
+- ✅ Batch statistical computation (reduced GPU-CPU sync)
+- ✅ Content vector caching (avoid redundant computation)
+- ✅ Vectorized similarity calculation (O(n²)→matrix operations)
+- ✅ Perfect reconstruction maintained (MSE=0, Cos=1.0)
+- 📄 Added performance optimization documentation
+
+Changes in v1.0.0:
+- Initial release
+- Complete information-oriented processing pipeline
+- MNIST classification experiment
+- 3D sphere visualization
+- Comprehensive documentation
+- Test suite
+
+Repository Structure:
+src/          - Core source code (optimized)
+experiments/  - Experimental scripts
+tests/        - Test suite
+examples/     - Usage examples
+docs/         - API documentation + Performance report
+assets/       - Generated visualizations
+
+Dependencies:
+- Python >= 3.8
+- PyTorch >= 2.0
+- torchvision
+- numpy
+- matplotlib
+- tqdm
+
+Performance:
+- Processing Speed: ~78.80ms per sample
+- Throughput: ~12.7 samples/sec
+- Reconstruction: Perfect (MSE=0.0, Cosine Similarity=1.0)
+- GPU Memory: Optimized
+
+Author:
+北京求一数生科技中心
+Beijing Qiuyishusheng Technology Center
+
+Contact:
+GitHub: https://github.com/qiuyishusheng/information-sphere
+
